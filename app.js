@@ -5,6 +5,8 @@ const app = express();
 
 app.use(express.json());
 
+app.use(express.static('public')); // отдача статических файлов из папки public
+
 app.use('/api', router);
 
 app.use(errorHandler);
