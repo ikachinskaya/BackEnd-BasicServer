@@ -1,0 +1,8 @@
+.vscode/
+.idea/
+.directory/
+
+node_modules/
+public/
+
+sequelize-*.json
